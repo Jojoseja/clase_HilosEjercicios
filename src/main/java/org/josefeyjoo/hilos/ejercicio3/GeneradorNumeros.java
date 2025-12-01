@@ -19,7 +19,7 @@ public class GeneradorNumeros extends Thread {
     public void run() {
         while (true) {
             Random random = new Random();
-            int timing = random.nextInt(1,2);
+            int timing = random.nextInt(2,4);
             try {
                 synchronized (lista) {
                     lista.aniadir(this.randomNum());
@@ -27,6 +27,7 @@ public class GeneradorNumeros extends Thread {
                     lista.notifyAll();
                 }
                 Thread.sleep(timing * 1000);
+                System.out.println("GeneradorNumeros: Durmiendo durante : " + timing + " segundos" );
             } catch (Exception e) {
                 System.out.println(e.getMessage());
             }

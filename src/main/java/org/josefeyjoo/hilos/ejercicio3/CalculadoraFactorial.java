@@ -22,10 +22,11 @@ public class CalculadoraFactorial extends Thread{
     public void run() {
         while (true){
             Random random = new Random();
-            int timing = random.nextInt(1,5);
+            int timing = random.nextInt(1,3);
             try {
                 synchronized (lista){
                     while (lista.getLista().isEmpty()){
+                        System.out.println("Esperando");
                         lista.wait();
                     }
                     int valor = lista.obtener();
@@ -33,6 +34,7 @@ public class CalculadoraFactorial extends Thread{
                     lista.notifyAll();
                 }
                 Thread.sleep(timing * 1000);
+                System.out.println("Calculadora: Durmiendo durante : " + timing + " segundos" );
             } catch ( Exception e ) {
                 System.out.println(e.getMessage());
             }

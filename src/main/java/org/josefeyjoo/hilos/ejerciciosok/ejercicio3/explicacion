@@ -1,0 +1,10 @@
+reserva no tiene nada raro
+La Clase Reserva -> Usuario, Reserva, horas(int)
+La Clase Sala -> nombre, capacidad, booleano reservado;
+2 synchronized, intentarReservar(int Personas): (boolean) -
+liberar -> reservado pasa a false
+La Clase SistemaReservas -> ArrayList<Reservas>
+synchronized pasar reserva
+La Clase Usuario -> Son hilos y para intentar reservar por
+usuario 5 intentos por usuario
+La Clase Main -> 1 sala y 3 usuarios

@@ -1,0 +1,7 @@
+En un Almacén hay 10 Galletas
+Hay dos tipos de Hilos -> Almacenero y Monstruo de las Galletas
+SOLO pueden entrar al almacen cuando no hay nadie (LOCK)
+El número de galletas que come cada monstruo es aleatorio y fijo
+Si hay menos galletas de las que se come el monstruo, se comerá todas las disponibles
+Si el almacenero entra al almacén y NO hay galletas, las repone
+El programa termina cuando el almacenero repone 10 veces y se han comido todas.

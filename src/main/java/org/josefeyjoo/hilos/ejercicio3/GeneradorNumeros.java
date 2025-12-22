@@ -1,6 +1,5 @@
 package org.josefeyjoo.hilos.ejercicio3;
 
-import java.util.LinkedList;
 import java.util.Random;
 
 public class GeneradorNumeros extends Thread {

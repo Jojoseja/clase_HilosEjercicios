@@ -1,0 +1,6 @@
+En unos grandes almacenes hay 30 clientes esperando 10 productos
+en total.
+Solo entra 1 por por la puerta, si intenta entrar 5 veces sin exito
+se va, si entra el cliente coge el producto, si no se va.
+Se imprime por pantalla lo sucedido
+Clases - Almacen, Puerta, Cliente(hilos), Main

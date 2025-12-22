@@ -1,0 +1,3 @@
+Un array de 1 000 000 posiciones que contiene un 1 y el resto 0, el 1 se encuentra en una posición aleatoria.
+Escribir un programa que cree un array y lance 4 hilos, que busquen el numero 1 de forma independiente.
+Cuando encuentra el hilo, muestra un mensaje diciendo: "Hilo X: Encontrado el 1 en Y"; "Hilo X: es el GANADOR"

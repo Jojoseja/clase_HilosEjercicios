@@ -1,4 +1,4 @@
-package org.josefeyjoo.hilos.ejerciciosok.ejercicio1;
+package org.josefeyjoo.hilos.ejerciciosok.ejercicio1.ej1;
 
 import java.util.ArrayList;
 
